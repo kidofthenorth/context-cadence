@@ -1,0 +1,4 @@
+# Keep macOS Finder cruft out of the cadence drop-in folder, so it never rides
+# along when .claude/ is copied into another repo. (The repo root may also have
+# its own .gitignore; this one travels with the payload.)
+.DS_Store

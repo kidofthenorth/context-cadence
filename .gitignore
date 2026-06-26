@@ -1,0 +1,3 @@
+# macOS Finder cruft — keep it out of the .claude/ drop-in payload so it never
+# rides along when the folder is copied into another repo.
+.DS_Store
