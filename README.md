@@ -1,5 +1,12 @@
 # context-loop
 
+> **RETIRED as a standalone product (2026-08-19).** The context layer this repo pioneered —
+> root `AGENTS.md` truth, the `CLAUDE.md` shim, per-module marker notes with SHA-stamped
+> `Last verified:` lines, deterministic staleness checking — was absorbed into the operator's
+> repo-kit as convention law (kit 3.0.0, naming-and-filing §3.4), enforced there by
+> `check-context-markers` with this repo's own stranded fixes built in. This repo stays as the
+> archive; no new standalone installs. `/cadence-audit` lives on as the kit's opt-in audit rung.
+
 > **Quick start:** Copy `.claude/` → run `/init-cadence` → `/plan <your change>`.
 > *(Slash commands are Claude Code; in Codex, Cursor, or other tools, read `AGENTS.md` and run the
 > same loop by hand — [details below](#how-the-notes-work-the-short-version).)*

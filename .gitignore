@@ -1,4 +1,8 @@
 # macOS Finder cruft — keep it out of the .claude/ drop-in payload so it never
 # rides along when the folder is copied into another repo.
 .DS_Store
+# Nested module CLAUDE.md notes stay out of the payload; the ROOT shim is tracked (FIX 4,
+# route A). The old bare `CLAUDE.md` rule silently swallowed the root shim at commit time —
+# commit 28b8b28's message says it added CLAUDE.md; its diff shows the rule ate it.
 CLAUDE.md
+!/CLAUDE.md
